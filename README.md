@@ -9,3 +9,4 @@ This project demonstrates a basic Todo List app written in plain JavaScript, wit
 - The categorized tasks are displayed using `console.log()`.
 
 ## 🖥️ Demo video link
+[text](https://www.loom.com/share/c826b1e5b3ce46e18dae98affa1dd8f7?sid=b02d628a-2218-4d5c-9c4b-d7529068b9ec)

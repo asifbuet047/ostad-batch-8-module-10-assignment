@@ -9,7 +9,7 @@ const todos = [
   { title: "Clean the room", done: false },
 ];
 
-// Step 2: Filter into completed and ongoing tasks
+// Step 2: Filter into completed and ongoing tasks use array.filter() method
 const completedTasks = todos.filter((todo) => {
   if (todo.done) {
     return true;
