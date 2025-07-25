@@ -2,16 +2,24 @@
 
 // Step 1: Create an array of todo items
 const todos = [
-  { title: "Do homework", done: false },
-  { title: "Buy groceries", done: true },
-  { title: "Call mom", done: false },
-  { title: "Read a book", done: true },
+  { title: "Do shopping for family", done: true },
+  { title: "Buy NVIDIA RTX 5090 for gaming", done: true },
+  { title: "Upgrade Laptop RAM from 16GB to 64GB", done: false },
+  { title: "Read a novel", done: true },
   { title: "Clean the room", done: false },
 ];
 
 // Step 2: Filter into completed and ongoing tasks
-const completedTasks = todos.filter(todo => todo.done === true);
-const ongoingTasks = todos.filter(todo => todo.done === false);
+const completedTasks = todos.filter((todo) => {
+  if (todo.done) {
+    return true;
+  }
+});
+const ongoingTasks = todos.filter((todo) => {
+  if (!todo.done) {
+    return true;
+  }
+});
 
 // Step 3: Display tasks in console
 
